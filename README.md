@@ -1,4 +1,4 @@
-# async-dup
+# async-dup Tokio fork
 
 [![Build](https://github.com/stjepang/async-dup/workflows/Build%20and%20test/badge.svg)](
 https://github.com/stjepang/async-dup/actions)
@@ -8,6 +8,13 @@ https://github.com/stjepang/async-dup)
 https://crates.io/crates/async-dup)
 [![Documentation](https://docs.rs/async-dup/badge.svg)](
 https://docs.rs/async-dup)
+
+## Fork notes
+
+This is a fork of async-dup replacing futures AsyncRead and AsyncWrite implementations with
+tokios AsyncRead and AsyncWrite for tokio runtime compatability.
+
+## Notes
 
 Duplicate an async I/O handle.
 
